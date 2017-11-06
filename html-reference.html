@@ -6,86 +6,177 @@
 <p>The HTML tags are used at the very beginning and end of your code. It signals the computer that your code is written in HTML.</p>
 <h4>Syntax</h4>
 <p>&lt;html&gt;All your html code belongs here&lt;/html&gt;</p>
+<h4>Example</h4>
+<h5>Input</h5>
+<p>&lt;html&gt;<br>
+&lt;body&gt;<br>
+&lt;p&gt;Hello world!&lt;/p&gt;<br>
+&lt;/body&gt;<br>
+&lt;/html&gt;</p>
+<h5>Output</h5>
+<p>Hello world!</p>
   
 <br>
 <h2>Head</h2>
 <p>The head is located before the body, containing metadata (data about the page). Whatever is put in the head does not actually appear on the page. The head includes things like the title or style of the page.
 <h4>Syntax</h4>
 <p>&lt;head&gt;Metadata about the page&lt;/head&gt;</p>
-
+<h4>Example</h4>
+<h5>Input</h5>
+<p>&lt;head&gt;<br>
+&lt;style&gt;<br>
+body {background-color: teal;}
+&lt;/style&gt;
+&lt;/head&gt;</p>
+<h5>Output</h5>
   
 <br>
 <h2>Title</h2>
 <p>The title is found in the head. It determines the title of the page (which the user can see on the tab at the top), as well as in the results of a search engine (such as Google) and in favorites/bookmarks.</p>
 <h4>Syntax</h4>
 <p>&lt;title&gt;Title of page&lt;/title&gt;</p>
-  
+<h4>Example</h4>
+<h5>Input</h5>
+<p>&lt;head&gt;<br>
+&lt;title&gt;How to HTML&lt;/title&gt;<br>
+&lt;/head&gt;</p>
+<h5>Output</h5>
+
 <br>
 <h2>Body</h2>
 <p>The body is the place where the most of you content is placed- including headings, paragraphs, images, tables, etc.</p>
 <h4>Syntax</h4>
 <p>&lt;body&gt;All the content in the page&lt;/body&gt;</p>
-  
+<h4>Example</h4>
+<h5>Input</h5>
+<p>&lt;body&gt;<br>
+&lt;p&gt;Hello World!&lt;/p&gt;<br>
+&lt;/body&gt;</p>
+<h5>Output</h5>
+<p>Hello World!</p>
+
 <br>
 <h2>Headings</h2>
 <p>Headings are used to signify importance over other content. The heading tags go around the words you want to enlargen. Headings are bigger and bolder. There are six types of headings- h1 being the biggest,, and h6 being the smallest.</p>
 <h4>Syntax</h4>
 <p>&lt;h4&gt;This would be a size 4 heading&lt;/h4&gt;</p>
-  
+<h4>Example</h4>
+<h5>Input</h5>
+<p>&lt;h1&gt;All about HTML&lt;/h1&gt;</p>
+<h5>Output</h5>
+<h1>All about HTML</h1>
+
 <br>
 <h2>Paragraph</h2>
 <p>When you have a great amount of writing to include, you probably want to make it a paragraph. Paragraphs are surrounded by its paragraph tags and ae often styled.</p>
 <h4>Syntax</h4>
 <p>&lt;p&gt;This is your paragraph&lt;/p&gt;</p>
-  
+ <h4>Example</h4>
+<h5>Input</h5>
+<p>&lt;p&gt;You first need a computer to write HTML.&lt;/p&gt;</p>
+<h5>Output</h5>
+<p>You first need a computer to write HTML.</p>
+
 <br>
 <h2>Breaks</h2>
 <p>Breaks create spaces between lines. For example, if you want to write an acrostic poem, you don't want all the letters to be squished up on one line. Breaks make adding a new line possible. Unlike paragraphs, breaks don't need an end tag.</p>  
 <h4>Syntax</h4>
 <p>&lt;br&gt;</p>
-  
+<h4>Example</h4>
+<h5>Input</h5>
+<p>Coding&lt;br&gt;is&lt;br&gt;hard.</p>
+<h5>Output</h5>
+<p>Coding<br>is<br>hard.</p>
+
 <br>
 <h2>Lines</h2>
 <p>This element is similar to a break, because is indicates a significant pause in the text. The only different is that a line runs across the page to separate the text.</p>
 <h4>Syntax</h4>
 <p>&lt;hr&gt;</p>
-  
+<h4>Example</h4>
+<h5>Input</h5>
+<p>Now that you have gathered the materials needed to learn HTML, let us proceed. &lt;hr&gt;First, open up your computer.</p>
+<h5>Output</h5>
+Now that you have gathered the materials needed to learn HTML, let us proceed. <hr>First, open up your computer.
+
 <br>
 <h2>Comments</h2>
 <p>People often use comments as  personal note in their code. Comments cannot be seen on the page, but only in the code. Coders also comments to hash code out in order to debug their program.</p>
 <h4>Syntax</h4>
 <p>&lt;!-- This is your comment --&gt;</p>
-  
+<h4>Example</h4>
+<h5>Input</h5>
+<p>Chromebooks suck.&lt;!-- Check credibility of this statement. --&gt;</p>
+<h5>Output</h5>
+<p>Chromebooks suck.</p>  
+
 <br>
 <h2>Links</h2>
 <p>When coders want to redirect the user to a new place, they often use hyperlinks to do so. Hyperlinks can be placed on text or images, that when clicked, redirects to a new place on the web.</p>
 <h4>Syntax</h4>
 <p>&lt;a href="url you want to go to"&gt;the text that appears&lt;/a&gt;</p>
-  
+<h4>Example</h4>
+<h5>Input</h5>
+<p>&lt;a href="https://en.wikipedia.org/wiki/HTML"&gt;Learn more about HTML!&lt;/a&gt;</p>
+<h5>Output</h5>
+<a href="https://en.wikipedia.org/wiki/HTML">Learn more about HTML!</a>
+
 <br>
 <h2>Images</h2>
 <p>To insert images into your website, you must paste the image link into your code. You can resize the image by setting the height and width of it within the image tag. Images also usually have alternative text that appears when the image cannot be retrieved.</p>
 <h4>Syntax</h4>
 <p>&lt;img src="image url" alt="alternative text"&gt;</p>
-  
+<h4>Example</h4>
+<h5>Input</h5>
+<p>&lt;img src="https://cdn.pixabay.com/photo/2016/02/03/13/59/iphone-1177153_960_720.jpg" alt="iphone"&gt;</p>
+<h5>Output</h5>
+<img src="https://cdn.pixabay.com/photo/2016/02/03/13/59/iphone-1177153_960_720.jpg" alt="iphone">
+
 <br>
 <h2>Lists</h2>
 <p>Lists are used to add bullet points or number your text. There are many different types of lists, including different fonts of unordered lists, as well as lists numbered by lowercase Roman numerals, uppercase Roman numerals, and Arabic numbers. Lists can be as long as you want (of course don't try to crash your computer though).</p>
 <h4>Syntax</h4>
 <h5>Ordered list:</h5>
-<p>&lt;ol&gt;<br>&lt;li&gt;content of bullet 1&lt;/li&gt;<br>&lt;li&gt;content of bullet 2&lt;/li&gt;<br>&lt;/li&gt;content of bullet 3&lt;/li&gt;</p>
+<p>&lt;ol&gt;<br>&lt;li&gt;content of bullet 1&lt;/li&gt;<br>&lt;li&gt;content of bullet 2&lt;/li&gt;<br>&lt;li&gt;content of bullet 3&lt;/li&gt;</p>
 <h5>Unordered list:</h5>
-<p>&lt;ul&gt;<br>&lt;li&gt;content of bullet 1&lt;/li&gt;<br>&lt;li&gt;content of bullet 2&lt;/li&gt;<br>&lt;/li&gt;content of bullet 3&lt;/li&gt;</p>
-  
+<p>&lt;ul&gt;<br>&lt;li&gt;content of bullet 1&lt;/li&gt;<br>&lt;li&gt;content of bullet 2&lt;/li&gt;<br>&lt;li&gt;content of bullet 3&lt;/li&gt;</p>
+<h4>Example</h4>
+<h5>Input</h5>
+<p>&lt;p&gt;Grocery list:&lt;/p&gt;<br>&lt;ol&gt;<br>&lt;li&gt;Cookies&lt;/li&gt;<br>&lt;li&gt;Chocolate&lt;/li&gt;<br>&lt;li&gt;Crackers&lt;/li&gt;</p>
+<h5>Output</h5>
+<p>Grocery list:</p>
+<ol>
+<li>Cookies</li>
+<li>Chocolate</li>
+<li>Crackers</li>
 <br>
 <h2>Tables</h2>
-<p>Inserting tables are generally complicated and require more work. Every table has its start and end tag, as well as tags indicating each new row and data cell.</p>
+<p>Inserting tables are generally complicated and require more work. Every table has its start and end tag, as well as tags indicating each new row (tr), table header (th), and table data (td).</p>
 <h4>Syntax</h4>
-  
+<p>&lt;table&gt;</p>
+<p>&lt;tr&gt;</p>
+<p>&lt;th&gt;Header content of 1st data cell in row 1&lt;/th&gt;</p>
+<p>&lt;th&gt;Header content of 2nd data cell in row 1&lt;/th&gt;</p>
+<p>&lt;th&gt;Header content of 3rd data cell in row 1&lt;/th&gt;</p>
+<p> &lt;/tr&gt;</p>
+<p> &lt;tr&gt;</p>
+<p>&lt;td&gt;Content of 1st data cell in row 2&lt;/td&gt;</p>
+<p>&lt;td&gt;Content of 2nd data cell in row 2&lt;/td&gt;</p>
+<p>&lt;td&gt;Content of 3rd data cell in row 2&lt;/td&gt;</p>
+<p> &lt;/tr&gt;</p>
+<p> &lt;/table&gt;</p>
+<h4>Example</h4>
+<h5>Input</h5>
+<h5>Output</h5>
+
 <br>
 <h2>Blocks</h2>
-<p>This element is used to divide content up and separate it into its own line (similar to using breaks). The opposite of this would be inline elements, which appear on the same line as adjacent content.</p>
+<p>This element is used to divide content up and separate it into its own line (similar to using breaks). It can also be used to set aside a certain text for styling or other elements. The opposite of this would be inline elements, which appear on the same line as adjacent content.</p>
 <h4>Syntax</h4>
+&lt;div&gt;Content of 1st section&lt;/div&gt;
+<h4>Example</h4>
+<h5>Input</h5>
+<h5>Output</h5>
 
 </body>
-<html>
+</html>
