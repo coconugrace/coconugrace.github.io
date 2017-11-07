@@ -1,0 +1,25 @@
+.mystyle {
+  color: Magenta;
+}
+
+.mybstyle {
+  border: 2px solid lightblue;
+}
+
+.mybgstyle {
+  background-color: cyan;
+}
+.mybgistyle {
+  background-image: url("http://www.barharbormagic.com/images2/tremont-01.jpg");
+}
+.mytstyle {
+  text-align: center;
+}
+
+.myfstyle {
+  font-family: "Verdana", Verdana, Sans-Serif;
+}
+
+.myfontstyle {
+  font: bold 15 px arial, sans-serif;
+}
