@@ -1,3 +1,74 @@
-.p {
-color: red;
+body {
+  background-color: black;
+  color: Snow;
+  font-family:"Comic Sans MS", Helvetica, Sans-Serif;
+}
+.title { /*Applies to title of page*/
+  text-align: center;
+  background-color: mediumorchid;
+  color: white;
+  font-family:"Arial Black", Serif;
+}
+
+.table th,.table td {
+  padding: 20px;
+  color: mintcream;
+}
+.table th {
+  font-size: 120%;
+}
+.table a {
+  color: lightcyan;
+  border: solid 2px RoyalBlue;
+  padding: 2px 5px;
+  text-decoration: none;
+  text-align: center;
+}
+.table a:visited {
+  border: solid 2px RebeccaPurple;
+}
+.table a:hover {
+  border: solid 2px Lightskyblue;
+}
+.everyotherrow {
+  background-color: rgb(40,40,42);
+}
+
+h2 {
+  text-align: center;
+  padding: 10px 0px;
+  border: dashed 3px plum;
+  font-size: 150%;
+  color: White;
+  background-color: rgb(12,10,10);
+}
+
+h3 {
+  background-color: rgb(160, 55, 181);
+}
+
+h4 {
+  background-color: rgb(30, 30, 40);
+  
+}
+p {
+  color: lavender;
+}
+
+ .input {/*Applies to input example of each element*\
+   border: Solid 1px black;
+   border-left-width: 4px;
+   border-left-color: Darkcyan;
+   padding: 10px;
+   color: AliceBlue;
+   background-color: rgb(3,10,14);
+   font-family: "Lucida Console", Monaco, monospace;
+ }
+
+.desc { /*Applies to description of each element*\
+  text-align: center;
+}
+
+#div{
+  color: teal;
 }
