@@ -17,7 +17,7 @@ body {
 .table th {
   font-size: 120%;
 }
-.table a {
+.table a /*table links*/{
   color: lightcyan;
   border: solid 2px RoyalBlue;
   padding: 2px 5px;
@@ -27,7 +27,7 @@ body {
 .table a:visited {
   border: solid 2px RebeccaPurple;
 }
-.table a:hover {
+.table a:hover /*Makes table striped*/{
   border: solid 2px Lightskyblue;
 }
 .everyotherrow {
@@ -45,6 +45,7 @@ h2 {
 
 h3 {
   background-color: rgb(160, 55, 181);
+  padding: 5px 5px;
 }
 
 h4 {
@@ -53,22 +54,42 @@ h4 {
 }
 p {
   color: lavender;
+  padding: 2px 0px;
 }
 
- .input {/*Applies to input example of each element*\
-   border: Solid 1px black;
-   border-left-width: 4px;
-   border-left-color: Darkcyan;
-   padding: 10px;
-   color: AliceBlue;
-   background-color: rgb(3,10,14);
-   font-family: "Lucida Console", Monaco, monospace;
+.input/*Applies to input example of each element*/ {
+  border: Solid 1px black;
+  border-left: solid 5px Indianred;
+  padding: 15px;
+  color: AliceBlue;
+  background-color: rgb(10,10,14);
+  font-family: "Lucida Console", Monaco, monospace;
  }
 
-.desc { /*Applies to description of each element*\
+.desc /*Applies to description of each element*/{
   text-align: center;
+}
+
+#phone /*Appies to pic in images*/{
+  height:200px;
+  width: 200px;
+  padding: 5px 10px;
+}
+
+#end /*ending line*/{
+  text-align: center;
+  font-size: 300%;
+  font-family: "Impact", Sans-Serif;
+  padding:20px 0px;
+  background-color:CornflowerBlue;
+  color:white;
+  border: dotted 10px paleturquoise;
 }
 
 #div{
   color: teal;
+}
+
+span {
+  color:lightpink;
 }
