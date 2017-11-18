@@ -2,9 +2,13 @@ body {
   background-color: pink;
 }
 
+h2 {
+  background-color: peachpuff;
+}
+
 table tr td {
   padding: 5px;
-  border: 2px solid purple;
+  border: 2px dotted purple;
   border-collapse: collapse;
   background:Violet;
 }
@@ -14,9 +18,6 @@ li {
   background: mistyrose;
 }
 
-.content {
-  background-color:#f7e6ff;
-}
 
 .content p {
   font-family:"Ariel", sans-serif;
@@ -24,7 +25,10 @@ li {
 }
 
 img {
-  width:100%;
+  max-width:90%;
+  height: "auto";
+  border-radius: 5%;
+  text-align: center;
 }
 
 .footer a {
@@ -46,6 +50,13 @@ img {
     font-family: "Comic Sans MS", cursive, "sans-serif";
 }
 
+iframe {
+  text-align:center;
+}
+
+#homeh {
+  background-image: url("https://static.pexels.com/photos/40797/wild-flowers-flowers-plant-macro-40797.jpeg");
+}
 #peonyh {
   background-image: url("https://static.pexels.com/photos/432368/pexels-photo-432368.jpeg");
 }
@@ -60,6 +71,10 @@ img {
 
 #dandelionh {
   background-image: url("https://static.pexels.com/photos/159056/dandelion-seeds-number-of-lion-screen-pilot-159056.jpeg");
+}
+#smallimg {
+  width: 15px;
+  height: 10px;
 }
 .mainpic {
   text-align: center;
