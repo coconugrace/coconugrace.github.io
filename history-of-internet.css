@@ -7,11 +7,13 @@ margin: auto;
 
 body {
   text-align: center;
+  margin: 5px;
 }
 
 h1 {
   font-size: 100px;
   font-family: "Times new roman", serif;
+  background-color: wheat;
 }
 
 p {
@@ -21,8 +23,10 @@ padding: 2px, 3px;
 }
 #firstparagraph {
   background-color: lightgreen;
+  color: navy;
 }
 
 #secondparagraph {
   background-color: mintcream;
+  color: green;
 }
