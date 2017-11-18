@@ -4,7 +4,24 @@ width: 98%;
 margin: auto;
 }
 
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: "Times new roman", serif;
+}
+
 p {
-size: 30px
-font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif";
+font-size: 30px;
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, "Serif";
+padding: 2px, 3px;
+}
+#firstparagraph {
+  background-color: lightgreen;
+}
+
+#secondparagraph {
+  background-color: mintcream;
 }
