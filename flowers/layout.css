@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 5px;
+}
+
+/* Style the header */
+.header {
+    text-align: center;
+    padding: 150px 10px;
+}
+
+/* navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: forestgreen;
+    margin: 20px;
+}
+
+/*topnav links */
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover:not(.active) {
+    background-color: #ddd;
+    color: black;
+}
+
+/* indicate active page on nav */
+.active {
+    background-color: #4CAF50;
+}
+
+/* A - Create three unequal columns that floats next to each other */
+
+
+/* Style the footer */
+.footer {
+    background-image: url("https://cdn.pixabay.com/photo/2015/09/20/07/21/dirt-947985_960_720.jpg");
+    padding: 10px;
+    text-align: center;
+    color: snow;
+}
